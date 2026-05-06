@@ -44,10 +44,10 @@ Run Tests → Fail → Plan → Fix → Validate → Review → Repeat
 
 ai-debug-agent/
 │
-├── agent.py        # Main agent loop (orchestrator)
-├── app.py          # Buggy source code (target)
-├── llm.py          # LLM integration (Ollama)
-├── test_app.py     # Test cases (pytest)
+├── agent.py # Main agent loop (orchestrator)
+├── app.py # Buggy source code (target)
+├── llm.py # LLM integration (Ollama)
+├── test_app.py # Test cases (pytest)
 ├── requirements.txt
 └── README.md
 
