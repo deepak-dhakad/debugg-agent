@@ -36,25 +36,6 @@ Run Tests → Fail → Plan → Fix → Validate → Review → Repeat
    - All tests pass OR  
    - Max iterations reached  
 
----
-
-## 📂 Project Structure
-
-```
-
-ai-debug-agent/
-│
-├── agent.py # Main agent loop (orchestrator)
-├── app.py # Buggy source code (target)
-├── llm.py # LLM integration (Ollama)
-├── test_app.py # Test cases (pytest)
-├── requirements.txt
-└── README.md
-
-````
-
----
-
 ##  Setup & Installation
 
 ### 1. Clone the Repository
